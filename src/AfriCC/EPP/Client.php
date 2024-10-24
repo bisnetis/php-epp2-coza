@@ -20,7 +20,6 @@ use Exception;
  * @see http://tools.ietf.org/html/rfc5734
  *
  * As this class deals directly with sockets it's untestable
- *
  * @codeCoverageIgnore
  */
 class Client extends AbstractClient implements ClientInterface

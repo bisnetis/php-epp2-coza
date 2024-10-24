@@ -16,7 +16,7 @@ use DOMNodeList;
 
 class DOMElement extends PHP_DOMElement
 {
-    public function hasChildNodes()
+    public function hasChildNodes():bool
     {
         $children = $this->childNodes;
         if (!($children instanceof DOMNodeList) || $children->length === 0) {
