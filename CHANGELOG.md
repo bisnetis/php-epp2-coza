@@ -27,6 +27,13 @@
 - `verify_peer_name` logic (@domainregistrar)
 - Testing issues (@bessone)
 
+## v3.0.0 - 2024-10-24
+
+### Changes
+
+- First Publish with COZA Extensions
+
+
 ## 1.0.0 - 2018-12-23
 
 ### Changes
