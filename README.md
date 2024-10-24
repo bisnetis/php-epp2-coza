@@ -1,4 +1,4 @@
-[![build and publish](https://github.com/AfriCC/php-epp2/actions/workflows/build-and-publish.yml/badge.svg)](https://github.com/AfriCC/php-epp2/actions/workflows/build-and-publish.yml)
+[![build and publish](https://github.com/bisnetis/php-epp2-coza/actions/workflows/build-and-publish.yml/badge.svg)](https://github.com/bisnetis/php-epp2-coza/actions/workflows/build-and-publish.yml)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AfriCC/php-epp2/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/AfriCC/php-epp2/?branch=main)
 [![Coverage Status](https://coveralls.io/repos/github/AfriCC/php-epp2/badge.svg?branch=main)](https://coveralls.io/github/AfriCC/php-epp2?branch=main)
 [![Latest Stable Version](https://poser.pugx.org/africc/php-epp2/v/stable.svg)](https://packagist.org/packages/africc/php-epp2)
@@ -6,17 +6,17 @@
 [![Latest Unstable Version](https://poser.pugx.org/africc/php-epp2/v/unstable.svg)](https://packagist.org/packages/africc/php-epp2)
 [![License](https://poser.pugx.org/africc/php-epp2/license.svg)](https://packagist.org/packages/africc/php-epp2)
 
-php-epp2
+php-epp2-coza
 ========
 
-**php-epp2** is a High Level Extensible Provisioning Protocol (EPP) TCP/SSL client written in modern PHP.
+**php-epp2** is a High Level Extensible Provisioning Protocol (EPP) TCP/SSL client written in modern PHP with COZA Extensions.
 
 Released under the GPLv3 License, feel free to contribute (fork, create
 meaningful branchname, issue pull request with thus branchname)!
 
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [php-epp2](#user-content-php-epp2)
+- [php-epp2-coza](#user-content-php-epp2)
     - [Requirements](#user-content-requirements)
     - [Features](#user-content-features)
     - [Install](#user-content-install)
@@ -33,7 +33,7 @@ meaningful branchname, issue pull request with thus branchname)!
 Requirements
 ------------
 
-* PHP 5.5+
+* PHP 8.0+
 * php-ext-intl
 * php-ext-openssl
 
@@ -59,14 +59,14 @@ Install
 Via Composer
 
 ```
-$ composer require africc/php-epp2
+$ composer require bisnetis/php-epp2-coza
 ```
 
 
 Usage
 -----
 
-See the [examples](https://github.com/AfriCC/php-epp2/blob/main/examples)
+See the [examples](https://github.com/bisnetis/php-epp2-coza/blob/main/examples)
 folder for a more or less complete usage reference. Additionally have a look at
 [whmcs-registrars-coza](https://github.com/AfriCC/whmcs-registrars-coza)
 which is a [WHMCS](https://www.whmcs.com) Registrar Module for the
@@ -269,7 +269,7 @@ Credits
 -------
 
 * [Günter Grodotzki](https://twitter.com/lifeofguenter)
-* [All Contributors](https://github.com/AfriCC/php-epp2/graphs/contributors)
+* [All Contributors](https://github.com/bisnetis/php-epp2-coza/graphs/contributors)
 
 
 Acknowledgments
@@ -283,5 +283,5 @@ License
 -------
 
 php-epp2 is released under the GPLv3 License. See the bundled
-[LICENSE](https://github.com/AfriCC/php-epp2/blob/main/LICENSE) file for
+[LICENSE](https://github.com/bisnetis/php-epp2-coza/blob/main/LICENSE) file for
 details.
