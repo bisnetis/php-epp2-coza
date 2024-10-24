@@ -1,26 +1,32 @@
 {
-  "name": "africc/php-epp2",
+  "name": "bisnetis/php-epp2-coza",
   "type": "library",
-  "description": "A High Level EPP (Extensible Provisioning Protocol) TCP/SSL Client for PHP",
-  "keywords": ["epp", "domains", "registrar", "registry", "client", "tcp"],
-  "homepage": "https://github.com/AfriCC/php-epp2",
+  "description": "A High Level EPP (Extensible Provisioning Protocol) TCP/SSL Client for PHP with COZA Extensions",
+  "keywords": ["epp", "domains", "registrar", "registry", "client", "tcp", "coza"],
+  "homepage": "https://github.com/bisnetis/php-epp2-coza",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Günter Grodotzki",
       "email": "gunter@grodotzki.com",
       "homepage": "https://afri.cc",
-      "role": "Owner"
+      "role": "Forked Owner"
     },
     {
       "name" : "Hubert Kowalski",
       "email" : "h.kowalski@hakger.pl",
       "homepage" : "https://www.hakger.pl",
+      "role" : "Forked Contributor"
+    },
+    {
+      "name" : "Collin Schwagele",
+      "email" : "collin@bisnet.co.za",
+      "homepage" : "https://www.bisnet.co.za",
       "role" : "Contributor"
     }
   ],
   "require": {
-    "php": ">=5.5.0",
+    "php": ">=8.3.0",
     "ext-intl": "*",
     "ext-openssl": "*"
   },
