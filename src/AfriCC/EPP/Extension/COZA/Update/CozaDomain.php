@@ -29,4 +29,8 @@ class CozaDomain extends DomainUpdate implements Extension
     {
         $this->set('//epp:epp/epp:command/epp:extension/cozadomain:update[@cancelPendingAction=\'PendingUpdate\']');
     }
+    public function AutoRenew($autorenew)
+    {
+        $this->set('//epp:epp/epp:command/epp:extension/cozadomain:update/cozadomain:chg/cozadomain:autorenew', $autorenew);
+    }
 }
