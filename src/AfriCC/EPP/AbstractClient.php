@@ -82,7 +82,7 @@ abstract class AbstractClient implements ClientInterface
         return ResponseFactory::build($return, $this->objectSpec);
     }
 
-    public function __construct(array $config, ObjectSpec $objectSpec = null)
+    public function __construct(array $config, ?ObjectSpec $objectSpec = null)
     {
         if (!empty($config['debug']) && is_bool($config['debug'])) {
             $this->debug = $config['debug'];
