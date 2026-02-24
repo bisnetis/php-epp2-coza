@@ -100,7 +100,7 @@ abstract class AbstractFrame extends DOMDocument implements FrameInterface
      *
      * @param \DOMDocument $import
      */
-    private function import(DOMDocument $import = null)
+    private function import(?DOMDocument $import = null)
     {
         if (is_null($import)) {
             return;
