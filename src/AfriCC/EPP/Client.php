@@ -28,7 +28,7 @@ class Client extends AbstractClient implements ClientInterface
     protected $chunk_size;
     protected $verify_peer_name;
 
-    public function __construct(array $config, ObjectSpec $objectSpec = null)
+    public function __construct(array $config, ?ObjectSpec $objectSpec = null)
     {
         parent::__construct($config, $objectSpec);
 
@@ -78,7 +78,7 @@ class Client extends AbstractClient implements ClientInterface
         $options = ['ssl' => $options_array];
 
         // stream_context_set_option accepts array of options in form of $arr['wrapper']['option'] = value
-        stream_context_set_option($context, $options);
+        stream_context_set_options($context, $options);
 
         return $context;
     }
