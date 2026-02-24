@@ -19,7 +19,7 @@ use AfriCC\EPP\ObjectSpec;
  */
 class Logout extends CommandFrame
 {
-    public function __construct(ObjectSpec $objectSpec = null)
+    public function __construct(?ObjectSpec $objectSpec = null)
     {
         parent::__construct($objectSpec);
         $this->set();
